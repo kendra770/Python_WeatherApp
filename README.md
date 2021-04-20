@@ -1,3 +1,3 @@
 # Python_WeatherApp
 
-This is a basic WebApp written in python. 
+This is a basic WeatherApp written in python. 
