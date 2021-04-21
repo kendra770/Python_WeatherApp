@@ -48,10 +48,15 @@ class WeatherApp:
 
 
         label['text'] = full_string
+        
+ #Create a new image object and set it to our App background#
+        
         new_image = ImageTk.PhotoImage(Image.open(image_type))
         background_label.configure(image=new_image)
         background_label.image = new_image
 
+ #Function to choose the correct background image based on JSON Weather Description#       
+        
     def get_image_type(description):
         global image_type
         if "rain" in description:
@@ -62,6 +67,7 @@ class WeatherApp:
           image_type = "sunny.jpg"
         return image_type
 
+ #Main Method of the WeatherApp Class#
 
     def __init__(self):
 
