@@ -13,7 +13,7 @@ class WeatherApp:
 
         # API KEY and URL for pulling the Weather Data#
         global api_key
-        api_key = "953eb70905fdaf52a9643c9ba78140b0"
+        api_key = 
 
         global url
         url = "https://api.openweathermap.org/data/2.5/weather/"
